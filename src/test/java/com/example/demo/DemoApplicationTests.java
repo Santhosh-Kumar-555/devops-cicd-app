@@ -11,7 +11,7 @@ class DemoApplicationTests {
 
     @Test
     void applicationStartsSuccessfully() {
-        assertEquals("DevOps CI/CD Pipeline is running successfully!",
+        assertEquals("DevOps CI/CD Pipeline is running successfully - Auto Build Verified!",
                 new DemoApplication().home());
     }
 
