@@ -16,7 +16,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "DevOps CI/CD Pipeline is running successfully!";
+        return "DevOps CI/CD Pipeline is running successfully - Auto Build Verified!";
     }
 
     @GetMapping("/health")
